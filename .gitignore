@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Models
+*.pt
+*.onnx
+*.bin
+*.param
+*.hef
+*.weights
+
+# Ultralytics
+runs/
+*_ncnn_model/
+
+# Keep model dirs but ignore contents
+models/ncnn/*
+models/hef/*
+!models/ncnn/.gitkeep
+!models/hef/.gitkeep
+
+# Assets
+assets/*
+!assets/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
